@@ -1,11 +1,11 @@
-# Medium articles aggregator
+# :whale2: Medium articles aggregator :whale2:
 This is a python project to develop a Medium articles aggregator for a certain tag.
 In the code the tag used is **cloud**, but it can be changed pretty easily.
+ 
+## Setup :wine_glass:
+After cloning the repo, you need to log in to Telegram on your phone or through the [web portal](https://web.telegram.org/k/).
 
-## Setup
-After cloning the repo, you need to log in to Telegram on your phone or on the [web portal](https://web.telegram.org/k/).
-
-Search for [BotFather](https://botostore.com/c/botfather/) and create your own first bot. 
+Search for [BotFather](https://botostore.com/c/botfather/) and create your own first bot. :raised_hands:
 Give it a name and an id, @BotFather will give you an HTTP API token that you will need to insert in the code:
 
 `telegram_bot_token = 'YOUR_TOKEN'`
@@ -20,7 +20,7 @@ from there you need to extract the field called `chat_id` and paste it in the co
 
 `telegram_chat_id = '<YOUR_CHAT_ID>'`
 
-as simple as it looks.
+as simple as it looks :fire: 
 
 ## Run 
 You need to run the main.py file, and it's done, script will send to your bot all the articles present on the first page for the **cloud** tag on Medium. 
