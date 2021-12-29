@@ -5,7 +5,6 @@ import json
 
 
 class Medium:
-    # https://github.com/thepracticaldev/dev.to/issues/28#issuecomment-325544385
 
     def __init__(self):
         self.DEVELOPER_CATEGORY = "developers"
